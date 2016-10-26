@@ -58,6 +58,7 @@ public class MainActivity extends Activity {
         } else if (newConfig.orientation == Configuration.ORIENTATION_PORTRAIT){
             Toast.makeText(this, "portrait", Toast.LENGTH_SHORT).show();
             mTextView.setText("Portrait");
+            //toast es como msgbox
         }
     }
 
